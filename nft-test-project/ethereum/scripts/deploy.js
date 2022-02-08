@@ -1,7 +1,8 @@
 // ethereum/scripts/deploy.js
+const { ethers } = require('hardhat');
 
 async function main() {
-    const EmotionalShapes = await ethers.getContractFactory("EmotionalShapes");
+    const EmotionalShapes = await ethers.getContractFactory("Shapes");
     const emotionalShapes = await EmotionalShapes.deploy();
 
     console.log("EmotionalShapes deployed:", emotionalShapes.address);
