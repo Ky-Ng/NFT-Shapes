@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
     "hardhat": "^2.8.3"
   },
   "dependencies": {
