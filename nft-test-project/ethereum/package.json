@@ -9,11 +9,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@ethersproject/contracts": "^5.5.0",
+    "@ethersproject/providers": "^5.5.3",
     "@nomiclabs/hardhat-ethers": "^2.0.4",
     "ethers": "^5.5.4",
     "hardhat": "^2.8.3"
   },
   "dependencies": {
+    "@ethersproject/wallet": "^5.5.0",
     "@openzeppelin/contracts": "^4.4.2",
     "dotenv": "^16.0.0"
   }
